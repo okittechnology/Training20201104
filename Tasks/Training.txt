@@ -1,0 +1,44 @@
+generics
+parallel
+tasks
+Async/Await
+Events
+collections
+DBMigrations
+UnitTest
+
+
+
+* Enable db Migrations*
+
+https://coding.abel.nu/2012/02/updating-a-table-with-ef-migrations/
+
+https://docs.microsoft.com/en-us/ef/ef6/modeling/code-first/migrations/
+
+https://dotnetfalcon.com/auditing-ef-code-first-migrations/
+
+To enable new migration
+Enable-Migrations -ProjectName Toombu.DataAccess -StartUpProjectName Toombu.Web -Verbose
+
+To add a new Migration:
+add-migration initial-schema -ProjectName Alcon.Data -StartUpProjectName Alcon.Web -Verbose
+
+
+
+https://www.tutorialsteacher.com/csharp/csharp-generics
+
+https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/collections
+
+https://dotnettutorials.net/lesson/parallel-for-method-csharp/
+
+https://docs.microsoft.com/en-us/dotnet/api/system.threading.tasks.task?view=netframework-4.7.2
+
+https://docs.microsoft.com/en-us/dotnet/standard/parallel-programming/task-based-asynchronous-programming
+
+
+https://docs.microsoft.com/en-us/ef/ef6/modeling/code-first/migrations/
+
+
+https://github.com/ktaranov/naming-convention/blob/master/C%23%20Coding%20Standards%20and%20Naming%20Conventions.md
+
+https://docs.microsoft.com/en-us/dotnet/standard/design-guidelines/
